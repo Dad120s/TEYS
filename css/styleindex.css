@@ -1,0 +1,160 @@
+.header{
+    background-color: black;
+    border-radius: 8px;
+}
+.menu-container ul.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid Black;
+    background-color: rgba(0, 51, 153, .1);
+}
+.menu, .menu.horizontal {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-decoration: none;
+
+}
+ul {
+    margin-left: 1.25rem;
+    list-style-type: disc;
+}
+dl, ol, ul {
+    margin-bottom: 1rem;
+    list-style-position: outside;
+    line-height: 1.6;
+}
+blockquote, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, pre, td, th, ul {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: inline;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Open Sans";
+}
+li{
+    margin-left: 60px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0a0a0a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-container {
+    background-color: #fff;
+    padding: 0 0 10px 0;
+    margin-top: 0;
+    text-decoration: none;
+    margin-bottom: -60px;
+}
+.logo-site{
+    margin-left: 5px;
+    font-size: 50px;
+    color: white;
+}
+.botao-login{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    margin-right: -20px;
+    margin-left: 1150px;
+}
+.botao-cadastro{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+.login-cadastro, .login, .cadastro{
+    display: inline;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.grid{
+    background-color: black;
+}
+.black{
+    background-color: black;
+}
+.retangulos{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(80, 80, 80);
+}
+.config-post {
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 5px; /* Adicione algum padding se desejar */
+}
+.config-video{
+    text-decoration: none;
+    color: black;
+    width: 130px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+.text-noticia, .text-video, .text-influenciador{
+    text-align: center;
+    margin-right: -60px;
+}
+.config-influenciador{
+    text-decoration: none;
+    color: black;
+    width: 130px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.config-noticia{
+    text-decoration: none;
+    color: black;
+    width: 130px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}

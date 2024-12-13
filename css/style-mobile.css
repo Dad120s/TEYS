@@ -1,0 +1,57 @@
+.container-top{
+    background-color: black;
+}
+.container-logo > a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.container-logo{
+    display: inline-flex;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.container-login-cadastrar{
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    vertical-align: top;
+    display: inline-flex;
+}
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+  
+.menu a:hover {
+    background-color: #f0f0f0;
+}
+
+.container-menu {
+    position: absolute; /* Permite controle exato do posicionamento */
+    top: 50px; /* Posiciona o menu abaixo do botão */
+    right: 10px; /* Ajusta o menu para alinhar à direita */
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+    margin-right: 123px;
+    width: 200px; /* Ajuste conforme necessário */
+}
+  
+.container-menu.active {
+    display: block; /* Mostra o menu quando ativado */
+}
+.botao-sanduiche{
+    border-radius: 5px;
+    margin-left: 6.5px;
+    margin-bottom: 5px;
+}
+.login{
+    margin-right: 10px;
+}
+.container-search-bar{
+    float: right;
+}

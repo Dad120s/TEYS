@@ -1,0 +1,67 @@
+.header{
+    background-color: rgb(24, 21, 21);
+    height: 140px;
+    border-radius: 7px;
+    display: flex; /* Usar Flexbox para alinhar os itens */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaço entre logo e seções */
+    padding: 0 20px; /* Adiciona algum espaçamento interno */
+}
+.img-logo{
+    margin: 5px 0 0 10PX;
+    width: 70px;
+}
+.options-sections li{
+    margin-top: 0;
+    display: inline;
+    padding: 10px;
+}
+.options-sections a{
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    width: 60px; 
+    height: 60px; 
+}
+.button{
+    border-radius: 10px;
+    color: black;
+    background-color:rgb(152,152,154);
+    margin-left: 5px; /* Espaço entre o campo de texto e o botão */
+}
+.option-jogo, .option-noticias, .option-videos, .option-streaming, .option-influenciadores, .option-canais, .option-patrocinadores, .option-anuncie{
+    display: inline;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(152,152,154);
+    border-radius: 10px;
+}
+.input-search{
+    border-radius: 10px;
+}
+.search .form{
+    margin: 0 0 0 1000px;
+    display: inline;
+}
+.search img{
+    display: inline;
+}
+.search input{
+    display: inline;
+}
+.icon-search{
+    width: 20px;
+    height: 20px;
+}
+
+.search{
+    width: 1300px;
+}
+.form{
+    margin-top: 0px;
+    width: 250px;
+    margin-bottom: 110px;
+    margin-left: 1050px;
+    display: inline; /* Alinha o ícone e os inputs horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
